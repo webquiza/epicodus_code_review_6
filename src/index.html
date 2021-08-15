@@ -9,6 +9,42 @@
 
     <h1>Currency Exchanger</h1>
     <img src="assets/images/exchange.jpg" alt="image of different currencies">
+
+    <h2>Check currency rate exchange</h2>
+
+    <div class="form-group">
+      <label for="amount"><span>Amount</span></label>
+      <input type="number" class="form-control" id="amount" placeholder="Enter the currency amount to convert" min="1">
+    </div>
+
+    <div class="form-group">
+      <label for="base"><span>Convert From</span></label>
+      <select class="form-control" id="base">
+        <option selected="selected">Make a selection</option>
+        <option value="USD">USD (United States Dollar)</option>
+        <option value="CAD">CAD (Canadian Dollar)</option>
+        <option value="MXN">MXN (Mexican Peso)</option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <label for="target"><span>Convert To</span></label>
+      <select class="form-control" id="target">
+        <option selected="selected">Make a selection</option>
+        <option value="KRW">KRW (South Korean Won)</option>
+        <option value="AED">AED (UAE Dirham)</option>
+        <option value="CHF">CHF (Swiss Franc)</option>
+        <option value="GBP">GBP (Pound Sterling)</option>
+        <option value="NZD">NZD (New Zealand Dollar)</option>
+        <option value="SEK">SEK (Swedish Krona)</option>
+      </select>
+    </div>
+
+    <div class="button">
+      <button type="button" class="btn btn-light" id="convert"><span>Convert</span></button>
+      <div class="showErrors"></div>
+      <div class="showResult"></div>
+    </div>
   
   </div>
 </body>
