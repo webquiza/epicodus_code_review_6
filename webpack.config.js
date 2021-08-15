@@ -7,7 +7,8 @@ module.exports = {
   entry: './src/index.js',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'dist'),
+    publicPath: "/epicodus_code_review_6/",
   },
   devtool: 'eval-source-map',  
   devServer: {                 

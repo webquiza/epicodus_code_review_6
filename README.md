@@ -45,9 +45,10 @@ _This application has the following functionality:_
 * _Enter your email address and click the "Get Free Key" button._
 * _Once your exchange rate API account is activated, copy your API key._
 * _Create a `.env` file in the top livel of your project._
-* _Store your API key as `API_KEY={API key goes here/remove curly braces}`within your `.env` file._
+* _Store your API key as `API_KEY={API key goes here/remove curly braces}` within your `.env` file._
 * _Run `$ npm run build` to open project via a development server._
 * _View project using development server by running `$ npm run start`._
+* _Alternatively, you can view the live webpage via this [GitHub Page](https://webquiza.github.io/epicodus_code_review_6/)._
 
 ## Known Bugs
 
