@@ -18,7 +18,7 @@
 * _eslint_
 * _Jest_
 * _Babel_
-* _**WIP: ADD API INFO**_
+* _API_
 
 
 ## Description
@@ -41,14 +41,17 @@ _This application has the following functionality:_
 * _Press Enter._
 * _Navigate to the project folder on your computer._
 * _Recreate project environment by running `$ npm install`._
-* _**WIP: ADD API .ENV FILE INFO HERE**_
+* _Visit the [exchange rate API](https://www.exchangerate-api.com/) site to get a free API key._
+* _Enter your email address and click the "Get Free Key" button._
+* _Once your exchange rate API account is activated, copy your API key._
+* _Create a `.env` file in the top livel of your project._
+* _Store your API key as `API_KEY={API key goes here/remove curly braces}`within your `.env` file._
 * _Run `$ npm run build` to open project via a development server._
-* View project using development server by running `$ npm run start`.
-* _To run tests, using Jest, run `$ npm test` in your terminal._
+* _View project using development server by running `$ npm run start`._
 
 ## Known Bugs
 
-* _No known issues._
+* _User has to refresh page in order to remove result response from page._
 
 ## License
 
